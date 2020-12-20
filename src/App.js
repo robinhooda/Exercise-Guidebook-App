@@ -114,8 +114,15 @@ export default function App() {
           ))}
         </ul>
       </div>
-      <div style={{ position: "fixed", bottom: 0, fontSize: "0.8rem" }}>
-        Made with ❤️ by Robin Hooda{" "}
+      <div
+        style={{
+          position: "fixed",
+          bottom: 0,
+          fontSize: "0.8rem",
+          padding: "1rem"
+        }}
+      >
+        Made with ❤️ by Robin Hooda
       </div>
     </div>
   );
